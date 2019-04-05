@@ -1,0 +1,27 @@
+body{
+    width:100vw;
+    background-color:lightgreen;
+
+}
+
+.gameboard{
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 auto;
+    width:600px;
+    height:600px;
+    background-color:lightyellow;
+    font-size:0px;
+}
+
+.square{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:100px;
+    color:black;
+    height:200px;
+    width:200px;
+    border:1px solid;
+    box-sizing:border-box;
+}
